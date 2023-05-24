@@ -19,7 +19,6 @@ const yesterday = formatISO(endOfYesterday(), {
 const parsedDate = parseISO(yesterday);
 const day = format(parsedDate, "EEEE");
 
-
 async function main() {
   console.log("Initialising");
   // initialise
@@ -51,7 +50,6 @@ async function initGoogleSheet() {
   });
   await doc.loadInfo();
   console.log("COMPLETED: initialising google doc");
-
 }
 
 async function addProjectRows(projects = []) {

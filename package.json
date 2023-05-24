@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.20.0",
-    "date-fns": "^2.16.1",
-    "dotenv": "^8.2.0",
-    "google-spreadsheet": "^3.0.13",
-    "wakatime-client": "^2.6.0"
+    "axios": "^0.19.2",
+    "date-fns": "^2.30.0",
+    "dotenv": "^8.6.0",
+    "google-spreadsheet": "^3.3.0",
+    "wakatime-client": "^2.7.0"
   },
-  "devDependencies": {},
   "scripts": {
     "run": "node index.js"
   },
