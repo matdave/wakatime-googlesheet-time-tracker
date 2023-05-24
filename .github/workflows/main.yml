@@ -4,8 +4,8 @@ on:
   push:
     branches: master
   workflow_dispatch:
-  schedule:
-    - cron: "30 19 * * *" # 1am IST
+#  schedule:
+#    - cron: "30 19 * * *" # 1am IST
 
 jobs:
   log-data:
